@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
           <div className="flex-1">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Yogesh Chandrasekharuni</h1>
-            <p className="text-lg text-gray-700 mb-4">Machine Learning Engineer</p>
+            <p className="text-lg text-gray-700 mb-4">Your Friendly Neighborhood AI Engineer</p>
             <div className="text-gray-600 space-y-2">
               <p><strong>Email:</strong> yogeshchandrasekharuni@gmail.com</p>
               <p><strong>Phone:</strong> +91 7032521800</p>

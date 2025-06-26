@@ -14,20 +14,20 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
-      <div id="education">
-        <About />
-      </div>
       <div id="skills">
         <Skills />
       </div>
       <div id="experience">
         <Experience />
       </div>
+      <div id="publications">
+        <Publications />
+      </div>
       <div id="projects">
         <Projects />
       </div>
-      <div id="publications">
-        <Publications />
+      <div id="education">
+        <About />
       </div>
       <Contact />
       
