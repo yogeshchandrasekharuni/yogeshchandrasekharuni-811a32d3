@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -13,6 +14,9 @@ const Navigation = () => {
             <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
             <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
             <a href="#publications" className="text-gray-600 hover:text-gray-900">Publications</a>
+            <Link to="/hire" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+              Hire me
+            </Link>
           </div>
         </div>
       </div>
