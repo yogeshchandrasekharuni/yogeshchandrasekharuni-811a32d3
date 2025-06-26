@@ -1,47 +1,32 @@
 
 import React from 'react';
-import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
-  const scrollToAbout = () => {
-    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 text-white relative overflow-hidden">
-      {/* Background animation */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-2000"></div>
-        <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-4000"></div>
-      </div>
-      
-      <div className="text-center z-10 px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Alex Johnson</span>
-        </h1>
-        <p className="text-xl md:text-2xl mb-8 text-gray-300 animate-fade-in animation-delay-500">
-          Full Stack Developer & UI/UX Designer
-        </p>
-        <p className="text-lg mb-12 text-gray-400 max-w-2xl mx-auto animate-fade-in animation-delay-1000">
-          I create beautiful, functional web experiences that bring ideas to life. 
-          Passionate about clean code, elegant design, and innovative solutions.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in animation-delay-1500">
-          <button 
-            onClick={scrollToAbout}
-            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-          >
-            View My Work
-          </button>
-          <button className="border-2 border-gray-400 hover:border-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-full font-semibold transition-all duration-300">
-            Download CV
-          </button>
+    <section className="py-12 bg-white">
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="flex flex-col md:flex-row items-start gap-8">
+          <div className="flex-shrink-0">
+            <img 
+              src="/lovable-uploads/989219f3-755b-414d-92a3-7db3f07a5049.png" 
+              alt="Yogesh Chandrasekharuni" 
+              className="w-48 h-48 object-cover rounded-lg shadow-md"
+            />
+          </div>
+          <div className="flex-1">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Yogesh Chandrasekharuni</h1>
+            <p className="text-lg text-gray-700 mb-4">Machine Learning Engineer</p>
+            <div className="text-gray-600 space-y-2">
+              <p><strong>Email:</strong> yogeshchandrasekharuni@gmail.com</p>
+              <p><strong>Phone:</strong> +91 7032521800</p>
+              <div className="flex space-x-4 mt-4">
+                <a href="#" className="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" className="text-blue-600 hover:underline">LinkedIn</a>
+                <a href="#" className="text-blue-600 hover:underline">Medium</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ChevronDown className="w-8 h-8 text-gray-400" />
       </div>
     </section>
   );

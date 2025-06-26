@@ -4,34 +4,38 @@ import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience';
 import Projects from '../components/Projects';
+import Publications from '../components/Publications';
 import Contact from '../components/Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white">
       <Navigation />
-      <div id="hero">
-        <Hero />
-      </div>
-      <div id="about">
+      <Hero />
+      <div id="education">
         <About />
       </div>
       <div id="skills">
         <Skills />
       </div>
+      <div id="experience">
+        <Experience />
+      </div>
       <div id="projects">
         <Projects />
       </div>
-      <div id="contact">
-        <Contact />
+      <div id="publications">
+        <Publications />
       </div>
+      <Contact />
       
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-gray-400">
-            © 2024 Alex Johnson. Built with React and Tailwind CSS.
+      <footer className="bg-gray-100 py-6 border-t border-gray-200">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <p className="text-gray-600 text-sm">
+            © 2024 Yogesh Chandrasekharuni. All rights reserved.
           </p>
         </div>
       </footer>
