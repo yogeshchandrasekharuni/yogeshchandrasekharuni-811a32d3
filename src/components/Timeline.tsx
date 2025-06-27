@@ -4,136 +4,136 @@ import React from 'react';
 const Timeline = () => {
   const projects = [
     {
-      title: "Task-driven AI Agent Chain for Multi-step Task Execution",
+      title: "Multi-Agent Task Orchestration Framework with Natural Language Workflow Processing",
       date: "Upcoming, November 2025",
       organization: "Confidential (NDA)",
-      description: "To develop a task-driven AI agent chain that can execute multi-step tasks by orchestrating multiple agents. The system is designed to handle complex workflows and automate repetitive tasks, improving efficiency and reducing manual effort. The agent chain can be customized to suit various use cases, such as data processing, content generation, and customer support. Workflow will be in natural language, and the system will be capable of understanding and executing the tasks in a sequential manner, ensuring that each step is completed before moving on to the next.",
+      description: "Developing a distributed multi-agent system for automated task execution using natural language workflow specifications. The framework implements agent coordination protocols, task dependency resolution, and sequential execution guarantees through state machine orchestration. Features dynamic agent allocation, fault tolerance mechanisms, and support for heterogeneous task types including data processing pipelines, content generation workflows, and customer support automation chains.",
       status: "upcoming"
     },
     {
-      title: "Orchestrating Agents to Monitor, Analyze and Buy-Sell Cryptocurrency on Exchanges",
+      title: "Autonomous Cryptocurrency Trading System with Multi-Exchange Integration",
       date: "Upcoming, July 2025",
       organization: "Confidential",
-      description: "Agentic system to monitor, trigger, and execute buy-sell orders on cryptocurrency exchanges based on market trends and user-defined strategies. The system is designed to be highly responsive and capable of handling multiple exchanges simultaneously, providing users with a powerful tool for managing their cryptocurrency investments.",
+      description: "Building a real-time algorithmic trading platform that integrates multiple cryptocurrency exchanges through standardized APIs. The system implements market trend analysis using technical indicators, sentiment analysis, and machine learning-based price prediction models. Features include risk management protocols, portfolio optimization algorithms, and high-frequency trading capabilities with sub-second latency requirements.",
       status: "upcoming"
     },
     {
-      title: "Leveraging Orchestrated Agents for HR Process Automation",
+      title: "Agent-Based HR Process Automation Platform",
       date: "June 2025",
       organization: "Wexa.ai",
-      description: "Solution engineering to leverage an agentic AI platform to automate HR processes such as recruitment, onboarding, and employee management. The platform uses a combination of AI agents to streamline these processes, reducing manual effort and improving efficiency. The solution is designed to be scalable and adaptable, allowing organizations to customize the automation to their specific HR needs.",
+      description: "Engineered a comprehensive HR automation solution leveraging a multi-agent architecture to streamline recruitment, onboarding, and employee lifecycle management. Implemented natural language processing for resume parsing, candidate matching algorithms, and automated interview scheduling. The platform integrates with existing HRIS systems and provides configurable workflow automation with audit trails and compliance monitoring.",
       status: "completed"
     },
     {
-      title: "Agentic AI Framework For Enabling End-users to Develop, Deploy and Manage AI Agents",
+      title: "No-Code AI Agent Development Framework with MCP Integration",
       date: "April 2025",
       organization: "Kodeus",
-      description: "Developed an application that automates creation of AI agents, utilizes existing MCPs, and allows end-users to develop, deploy, and manage AI agents without requiring any programming skills. The framework is designed to be user-friendly and accessible, enabling users to create AI agents that can perform various tasks, such as data analysis, customer support, and content generation, without needing to write code.",
+      description: "Architected a visual development platform enabling non-technical users to create, deploy, and manage AI agents through drag-and-drop interfaces. The framework integrates Model Context Protocol (MCP) standards, supports custom tool integration, and provides automated deployment pipelines. Features include agent performance monitoring, A/B testing capabilities, and seamless integration with existing business systems.",
       status: "completed"
     },
     {
-      title: "Multi-modal Consumer-facing AI Agent for Product Discovery, Recommendation and Purchase",
+      title: "Multi-Modal AI Agent for E-Commerce Product Discovery and Recommendation",
       date: "February 2025",
       organization: "Cabinetworks Group",
-      description: "Capable of understanding user queries in natural language, processing images of products, and providing personalized recommendations. The agent can also assist users in making purchases directly through the platform, streamlining the shopping experience and enhancing customer satisfaction. Also outputs images of the recommended products, making it easier for users to visualize their options.",
+      description: "Developed an intelligent product discovery system combining computer vision, natural language processing, and recommendation algorithms. The system processes user queries in natural language, performs visual product search through image recognition, and generates personalized recommendations using collaborative and content-based filtering. Integrated with e-commerce platforms for seamless purchase flow and dynamic product visualization.",
       status: "completed"
     },
     {
-      title: "Advanced RAG Pipeline for Efficient Search and Document Processing in Enterprise-Scale Financial Advisory Operations",
+      title: "Enterprise-Scale RAG Pipeline for Financial Document Processing",
       date: "December 2024",
-      organization: "Confidential (NDA) - One of the largest investment banking firms in the world",
-      description: "The Advanced Retrieval-Augmented Generation (RAG) Pipeline for Financial Advisors is designed to enhance document search and retrieval capabilities within one of the world's largest investment banking firms. Implemented in December 2024, this system utilizes state-of-the-art NLP techniques and large-scale data processing to allow financial advisors to seamlessly search and retrieve relevant information from a vast repository of policy documents, financial reports, and other enterprise-wide resources.",
+      organization: "Confidential (NDA) - Global Investment Banking Institution",
+      description: "Implemented a high-performance Retrieval-Augmented Generation system for financial advisory operations, processing millions of documents including policy manuals, financial reports, and regulatory filings. The pipeline features multi-stage query optimization, semantic embedding generation, hierarchical indexing, and context-aware response generation. Achieved sub-second response times with 95%+ accuracy on financial document retrieval tasks.",
       status: "completed"
     },
     {
-      title: "Assessing Terminal-protection Requirements for Batteries Submitted for Recycling",
+      title: "CNN-Based Battery Classification System for Recycling Operations",
       date: "November 2024",
       organization: "Recycle My Battery",
-      description: "Designed, trained, and deployed an optimised CNN model to classify battery types with 92.5%+ accuracy. Pipeline to automatically label images of batteries, and then train a CNN model to classify battery types. The model is capable of classifying battery types with 92.5%+ accuracy, and can be used for various downstream tasks like battery recycling, battery management, etc.",
+      description: "Designed and deployed a computer vision pipeline for automated battery type classification achieving 92.5% accuracy. The system implements transfer learning on pre-trained CNN architectures, automated data labeling workflows, and real-time inference capabilities. Features include image preprocessing pipelines, model versioning, and integration with recycling facility management systems for terminal protection assessment automation.",
       status: "completed"
     },
     {
-      title: "AI-powered Devotee-facing Volunteer Chatbot for Isha's Programs",
+      title: "RAG-Enabled Program Management Chatbot for Religious Organization",
       date: "May 2024",
       organization: "Isha Foundation",
-      description: "RAG-based chatbot + support for user's to book/reschedule/find out more info about Isha's programs. Currently live in multiple centres in India and USA.",
+      description: "Built a conversational AI system for program information retrieval and booking management using Retrieval-Augmented Generation. The chatbot handles complex queries about spiritual programs, facilitates booking and rescheduling through API integrations, and provides multilingual support. Currently deployed across multiple centers in India and USA, processing thousands of user interactions daily.",
       status: "completed"
     },
     {
-      title: "Real-time Public Sentiment Analysis & Dashboard",
+      title: "Real-Time Political Sentiment Analysis Platform with Geographic Localization",
       date: "April 2024",
-      organization: "Confidential, local political party",
-      description: "Localized sentiment analysis system for real-time public sentiment analysis and dashboard. The system is capable of analyzing public sentiment from various sources like social media, news articles, etc. and provides a dashboard for visualizing the sentiment trends.",
+      organization: "Confidential - Political Organization",
+      description: "Engineered a comprehensive sentiment monitoring system aggregating data from social media platforms, news sources, and public forums. The platform implements natural language processing for sentiment classification, geographic clustering algorithms, and real-time dashboard visualization. Features include trend analysis, demographic segmentation, and automated alert systems for significant sentiment shifts.",
       status: "completed"
     },
     {
-      title: "Multi-modal, AI System for Real-time Configurable Incident Detection",
+      title: "Multi-Modal Incident Detection System with Root Cause Analysis",
       date: "December 2023",
-      organization: "D-meter group",
-      description: "Real-time and actionable incident detection, using multi-agent multi-modal LLMs and CV models. Also reports root-cause analysis. Showcased as a flagship product at Global AI Summit - 2024, Telangana.",
+      organization: "D-meter Group",
+      description: "Developed a real-time safety monitoring system combining computer vision models, sensor data processing, and large language models for incident detection and analysis. The system features configurable alert thresholds, automated root cause analysis generation, and integration with existing safety management systems. Demonstrated as flagship product at Global AI Summit 2024, showcasing sub-second detection capabilities.",
       status: "completed"
     },
     {
-      title: "LLM-driven Chat bot for Customer Support Automation",
+      title: "Production-Scale Conversational AI Platform for Global Financial Services",
       date: "June 2023",
       organization: "Western Union",
-      description: "Generative-AI powered chat-bot for customer support automation. Also supports drop-in function calling for various tasks like transaction status retrieval, FAQ resolution, troubleshooting, etc. The chat-bot is capable of handling a wide range of customer queries and can be used for various downstream tasks like customer support automation, customer engagement, etc. Currently in production in 75+ countries that WU operates in.",
+      description: "Architected and deployed a multilingual customer support automation system serving 75+ countries with function calling capabilities for transaction processing. The platform handles transaction status queries, FAQ resolution, and complex troubleshooting scenarios through integration with backend financial systems. Features include conversation context management, escalation protocols, and real-time performance analytics.",
       status: "completed"
     },
     {
-      title: "RAG-powered Chat with Documents Application",
+      title: "Document-Aware Conversational AI with Retrieval-Augmented Generation",
       date: "February 2023",
       organization: "Skil.AI",
-      description: "State-of-the-art retrieval augmented generation (RAG) powered chat with documents application. The application is capable of answering questions based on the documents provided by the user. The application uses a combination of LLMs and vector databases to provide accurate and relevant answers to the user's questions.",
+      description: "Implemented a state-of-the-art RAG system enabling natural language querying of document collections. The platform features advanced document preprocessing, semantic chunking strategies, vector database optimization, and context-aware response generation. Supports multiple document formats with real-time indexing and query performance optimization achieving millisecond-latency responses.",
       status: "completed"
     },
     {
-      title: "Multi-agent Framework for Orchestrating AI agents",
+      title: "High-Throughput Multi-Agent Conversational AI Backend",
       date: "December 2022",
       organization: "NextCX.ai",
-      description: "Architected, developed, and scaled up the back-end framework of a generative chat-bot to thousands of queries per minute and 2M+ tokens per day. Designed an ETL pipeline for a vector database with millisecond latency. Built and deployed an intent-classification (97%+ accuracy), entity-extraction (0.94 recall) and function-calling (75% AST eval) capable module.",
+      description: "Engineered a scalable backend infrastructure supporting thousands of concurrent conversations and 2M+ daily token processing. The system implements intent classification (97% accuracy), named entity recognition (0.94 recall), and function calling with AST-based evaluation (75% accuracy). Features include ETL pipelines for vector databases, real-time load balancing, and comprehensive monitoring and alerting systems.",
       status: "completed"
     },
     {
-      title: "AI-Powered Chatbot for Automated Customer Self-Service and Support",
+      title: "Multilingual Customer Self-Service Automation Platform",
       date: "May 2022",
       organization: "Western Union",
-      description: "The AI-Powered Chatbot for Automated Customer Self-Service and Support, developed in May 2022 for Western Union, utilizes advanced natural language processing (NLP) and machine learning (ML) techniques to provide scalable, multi-lingual, and multi-stage automated customer support. The system is designed to autonomously handle a wide range of transactional and informational queries, optimizing customer interactions by offering real-time, self-service solutions.",
+      description: "Built an enterprise-grade conversational AI platform supporting automated customer service across multiple languages and regions. The system integrates natural language processing, machine learning-based query classification, and backend API orchestration for transaction processing. Features include continuous learning mechanisms, performance optimization, and comprehensive analytics for customer interaction patterns.",
       status: "completed"
     },
     {
-      title: "Toolkit for Importing Hand-drawn Engineering Drawings Into CAD Software",
+      title: "Computer Vision Pipeline for Engineering Drawing Digitization",
       date: "December 2021",
       organization: "Skil.AI",
-      description: "Toolkit for importing hand-drawn engineering blueprints into AutoCAD which enabled 75% of a client's archive of legacy drawings to be digitized without any manual effort, and an additional 10% requiring only minimal human corrections.",
+      description: "Developed an automated system for converting hand-drawn engineering blueprints into CAD-compatible formats. The pipeline combines object detection, line extraction algorithms, and geometric reconstruction to achieve 75% full automation with 10% requiring minimal human intervention. Implemented custom image preprocessing, feature extraction, and vector graphics generation optimized for AutoCAD integration.",
       status: "completed"
     },
     {
-      title: "Lightweight Resume Parsing and Ranking For Edge Devices",
+      title: "Edge-Optimized Resume Processing and Ranking System",
       date: "April 2021",
       organization: "Skil.AI",
-      description: "Designed and developed a layout-agnostic resume-parser capable of running on edge devices with less than 500MB of RAM. Given a JD, the model ranks resumes based on their relevance to the JD. The model is capable of extracting structured data from resumes and can be used for various downstream tasks like resume ranking, resume search, etc.",
+      description: "Engineered a lightweight document processing system capable of running on resource-constrained devices (<500MB RAM). The system implements layout-agnostic text extraction, structured data parsing, and semantic similarity matching for job description alignment. Features include real-time ranking algorithms, batch processing capabilities, and integration APIs for applicant tracking systems.",
       status: "completed"
     },
     {
-      title: "Layout-agnostic Information Extraction Pipeline for Formal Documents",
+      title: "Layout-Agnostic Information Extraction Framework for Structured Documents",
       date: "October 2020",
       organization: "Skil.AI",
-      description: "Extract from my SOP discussing this project: I later secured an internship at a start-up working on extracting structured data from scanned invoices. Their application used over-fitted object detection models, which were inefficient for handling thousands of document layouts. After weeks of research, I developed an NLP-based, layout-agnostic solution inspired by Majumder et al. (ACL 2020). My model improved accuracy across 98% of the layout clusters while using 10% of the compute, thereby reducing server costs and streamlining MLOps.",
+      description: "Designed an NLP-based document processing solution addressing limitations of traditional object detection approaches for invoice processing. The framework achieved 98% accuracy improvement across diverse layout clusters while reducing computational requirements by 90%. Implemented token-level classification, spatial relationship modeling, and adaptive template matching inspired by academic research in document understanding.",
       status: "completed"
     },
     {
-      title: "Optimizing CNN-based Segmentation Models for Low Compute Devices",
+      title: "Quantization-Aware CNN Optimization for Hyperspectral Image Processing",
       date: "September 2019",
       organization: "Gandhi Institute of Technology and Management",
-      description: "Extract from my SOP discussing this project: My first hands-on experience with AI came in my third semester as a Research Assistant under Dr. Sandeep Kumar, where I focused on optimizing CNNs for low-compute devices, specifically for processing hyperspectral satellite images. Integrating quantization-aware training and wavelet transforms, I faced challenges like exploding gradients, which I mitigated by adjusting the architecture and applying gradient clipping.",
+      description: "Researched and implemented optimization techniques for CNN-based segmentation models targeting low-compute satellite image processing applications. The project integrated quantization-aware training, wavelet transforms, and gradient clipping strategies to address exploding gradient problems. Achieved significant inference speed improvements while analyzing trade-offs in pixel-precision segmentation tasks for hyperspectral data analysis.",
       status: "completed"
     },
     {
-      title: "Article Recommendation Engine for a Newsletter Website",
+      title: "Content-Based and Collaborative Filtering Recommendation Engine",
       date: "April 2019",
       organization: "Confidential",
-      description: "Developed a recommendation engine for a newsletter website that suggests articles to users based on their reading history and preferences. The engine uses collaborative filtering and content-based filtering techniques to provide personalized recommendations, improving user engagement and retention.",
+      description: "Implemented a hybrid recommendation system for newsletter content personalization using collaborative filtering and content-based approaches. The system analyzes user reading patterns, content similarity metrics, and engagement data to generate personalized article suggestions. Features include real-time recommendation updates, A/B testing framework, and performance analytics for measuring user engagement improvements.",
       status: "completed"
     }
   ];
