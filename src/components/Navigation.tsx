@@ -10,9 +10,8 @@ const Navigation = () => {
           <h1 className="text-xl font-bold text-gray-900">Yogesh Chandrasekharuni</h1>
           <div className="flex items-center space-x-6 text-sm">
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
-            <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
-            <a href="#publications" className="text-gray-600 hover:text-gray-900">Publications</a>
             <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
+            <a href="#publications" className="text-gray-600 hover:text-gray-900">Publications</a>
             <a href="#education" className="text-gray-600 hover:text-gray-900">Education</a>
             <Link to="/hire" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
               Hire me
