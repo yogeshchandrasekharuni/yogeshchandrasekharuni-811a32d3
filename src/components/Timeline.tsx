@@ -4,7 +4,7 @@ import React from 'react';
 const Timeline = () => {
   const projects = [
     {
-      title: "Multi-Agent Task Orchestration Framework with Natural Language Workflow Processing",
+      title: "Distributed Multi-Agent Task Orchestration Framework with Natural Language Workflow Processing",
       date: "Upcoming, November 2025",
       organization: "Confidential (NDA)",
       logo: "/lovable-uploads/1d9a8648-a934-4a63-8ef0-12ff6e1c9fce.png",
@@ -182,7 +182,11 @@ const Timeline = () => {
                       <img 
                         src={project.logo} 
                         alt={`${project.organization} logo`}
-                        className="w-12 h-12 object-contain flex-shrink-0"
+                        className={`w-12 h-12 object-contain flex-shrink-0 ${
+                          project.organization === 'Kodeus' || project.organization === 'Skil.AI' 
+                            ? 'filter invert' 
+                            : ''
+                        }`}
                       />
                       <h3 className="text-lg font-semibold text-gray-900">
                         {project.title}
