@@ -178,11 +178,11 @@ const Timeline = () => {
                 {/* Content */}
                 <div className="ml-12 bg-gray-50 p-6 rounded-lg shadow-sm">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
-                    <div className="flex items-center gap-3 mb-2 sm:mb-0">
+                    <div className="flex items-center gap-4 mb-2 sm:mb-0">
                       <img 
                         src={project.logo} 
                         alt={`${project.organization} logo`}
-                        className="w-8 h-8 object-contain flex-shrink-0"
+                        className="w-12 h-12 object-contain flex-shrink-0"
                       />
                       <h3 className="text-lg font-semibold text-gray-900">
                         {project.title}
