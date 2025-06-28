@@ -46,8 +46,8 @@ const Timeline = () => {
     {
       title: "Enterprise-Scale RAG Pipeline for Financial Document Processing",
       date: "December 2024",
-      organization: "Confidential (NDA) - Global Investment Banking Institution",
-      logo: "/lovable-uploads/1d9a8648-a934-4a63-8ef0-12ff6e1c9fce.png",
+      organization: "Truist Financial Corporation ",
+      logo: "/lovable-uploads/truist-logo.png",
       description: "Implemented a high-performance Retrieval-Augmented Generation system for financial advisory operations, processing millions of documents including policy manuals, financial reports, and regulatory filings. The pipeline features multi-stage query optimization, semantic embedding generation, hierarchical indexing, and context-aware response generation. Achieved sub-second response times with 95%+ accuracy on financial document retrieval tasks.",
       status: "completed"
     },
