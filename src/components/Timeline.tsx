@@ -94,7 +94,7 @@ const Timeline = () => {
     {
       title: "Document-Aware Conversational AI with Retrieval-Augmented Generation",
       date: "February 2023",
-      organization: "Skil.AI",
+      organization: "Skil.ai",
       logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Implemented a state-of-the-art RAG system enabling natural language querying of document collections. The platform features advanced document preprocessing, semantic chunking strategies, vector database optimization, and context-aware response generation. Supports multiple document formats with real-time indexing and query performance optimization achieving millisecond-latency responses.",
       status: "completed"
@@ -103,7 +103,7 @@ const Timeline = () => {
       title: "High-Throughput Multi-Agent Conversational AI Backend",
       date: "December 2022",
       organization: "NextCX.ai",
-      logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
+      logo: "/lovable-uploads/nextcx-ai-logo.jpg",
       description: "Engineered a scalable backend infrastructure supporting thousands of concurrent conversations and 2M+ daily token processing. The system implements intent classification (97% accuracy), named entity recognition (0.94 recall), and function calling with AST-based evaluation (75% accuracy). Features include ETL pipelines for vector databases, real-time load balancing, and comprehensive monitoring and alerting systems.",
       status: "completed"
     },
@@ -118,7 +118,7 @@ const Timeline = () => {
     {
       title: "Computer Vision Pipeline for Engineering Drawing Digitization",
       date: "December 2021",
-      organization: "Skil.AI",
+      organization: "Skil.ai",
       logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Developed an automated system for converting hand-drawn engineering blueprints into CAD-compatible formats. The pipeline combines object detection, line extraction algorithms, and geometric reconstruction to achieve 75% full automation with 10% requiring minimal human intervention. Implemented custom image preprocessing, feature extraction, and vector graphics generation optimized for AutoCAD integration.",
       status: "completed"
@@ -126,7 +126,7 @@ const Timeline = () => {
     {
       title: "Edge-Optimized Resume Processing and Ranking System",
       date: "April 2021",
-      organization: "Skil.AI",
+      organization: "Skil.ai",
       logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Engineered a lightweight document processing system capable of running on resource-constrained devices (<500MB RAM). The system implements layout-agnostic text extraction, structured data parsing, and semantic similarity matching for job description alignment. Features include real-time ranking algorithms, batch processing capabilities, and integration APIs for applicant tracking systems.",
       status: "completed"
@@ -134,7 +134,7 @@ const Timeline = () => {
     {
       title: "Layout-Agnostic Information Extraction Framework for Structured Documents",
       date: "October 2020",
-      organization: "Skil.AI",
+      organization: "Skil.ai",
       logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Designed an NLP-based document processing solution addressing limitations of traditional object detection approaches for invoice processing. The framework achieved 98% accuracy improvement across diverse layout clusters while reducing computational requirements by 90%. Implemented token-level classification, spatial relationship modeling, and adaptive template matching inspired by academic research in document understanding.",
       status: "completed"
@@ -183,7 +183,7 @@ const Timeline = () => {
                         src={project.logo} 
                         alt={`${project.organization} logo`}
                         className={`w-12 h-12 object-contain flex-shrink-0 ${
-                          project.organization === 'Kodeus' || project.organization === 'Skil.AI' 
+                          project.organization === 'Kodeus' || project.organization === 'Skil.ai' 
                             ? 'filter invert' 
                             : ''
                         }`}
