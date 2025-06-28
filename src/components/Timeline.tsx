@@ -13,7 +13,7 @@ const Timeline = () => {
     },
     {
       title: "Autonomous Cryptocurrency Trading System with Multi-Exchange Integration",
-      date: "Upcoming, July 2025",
+      date: "Upcoming, August 2025",
       organization: "Confidential",
       logo: "/lovable-uploads/1d9a8648-a934-4a63-8ef0-12ff6e1c9fce.png",
       description: "Building a real-time algorithmic trading platform that integrates multiple cryptocurrency exchanges through standardized APIs. The system implements market trend analysis using technical indicators, sentiment analysis, and machine learning-based price prediction models. Features include risk management protocols, portfolio optimization algorithms, and high-frequency trading capabilities with sub-second latency requirements.",
@@ -21,11 +21,11 @@ const Timeline = () => {
     },
     {
       title: "Agent-Based HR Process Automation Platform",
-      date: "June 2025",
+      date: "Upcoming, July 2025",
       organization: "Wexa.ai",
       logo: "/lovable-uploads/wexa-ai-logo.jpg",
-      description: "Engineered a comprehensive HR automation solution leveraging a multi-agent architecture to streamline recruitment, onboarding, and employee lifecycle management. Implemented natural language processing for resume parsing, candidate matching algorithms, and automated interview scheduling. The platform integrates with existing HRIS systems and provides configurable workflow automation with audit trails and compliance monitoring.",
-      status: "completed"
+      description: "Engineering a comprehensive HR automation solution leveraging a multi-agent architecture to streamline recruitment, onboarding, and employee lifecycle management. To implement natural language processing for resume parsing, candidate matching algorithms, and automated interview scheduling. The platform will integrate with existing HRIS systems and provide configurable workflow automation with audit trails and compliance monitoring.",
+      status: "upcoming"
     },
     {
       title: "No-Code AI Agent Development Framework with MCP Integration",
