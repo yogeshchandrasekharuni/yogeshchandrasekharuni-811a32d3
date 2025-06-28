@@ -31,7 +31,7 @@ const Timeline = () => {
       title: "No-Code AI Agent Development Framework with MCP Integration",
       date: "April 2025",
       organization: "Kodeus",
-      logo: "/lovable-uploads/af5de8a3-235b-4e83-b699-f1585732ef65.png",
+      logo: "/lovable-uploads/f6127ed4-1f72-4f64-abe0-76d51bbc12c4.png",
       description: "Architected a visual development platform enabling non-technical users to create, deploy, and manage AI agents through drag-and-drop interfaces. The framework integrates Model Context Protocol (MCP) standards, supports custom tool integration, and provides automated deployment pipelines. Features include agent performance monitoring, A/B testing capabilities, and seamless integration with existing business systems.",
       status: "completed"
     },
@@ -95,7 +95,7 @@ const Timeline = () => {
       title: "Document-Aware Conversational AI with Retrieval-Augmented Generation",
       date: "February 2023",
       organization: "Skil.AI",
-      logo: "/lovable-uploads/f6127ed4-1f72-4f64-abe0-76d51bbc12c4.png",
+      logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Implemented a state-of-the-art RAG system enabling natural language querying of document collections. The platform features advanced document preprocessing, semantic chunking strategies, vector database optimization, and context-aware response generation. Supports multiple document formats with real-time indexing and query performance optimization achieving millisecond-latency responses.",
       status: "completed"
     },
@@ -119,7 +119,7 @@ const Timeline = () => {
       title: "Computer Vision Pipeline for Engineering Drawing Digitization",
       date: "December 2021",
       organization: "Skil.AI",
-      logo: "/lovable-uploads/f6127ed4-1f72-4f64-abe0-76d51bbc12c4.png",
+      logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Developed an automated system for converting hand-drawn engineering blueprints into CAD-compatible formats. The pipeline combines object detection, line extraction algorithms, and geometric reconstruction to achieve 75% full automation with 10% requiring minimal human intervention. Implemented custom image preprocessing, feature extraction, and vector graphics generation optimized for AutoCAD integration.",
       status: "completed"
     },
@@ -127,7 +127,7 @@ const Timeline = () => {
       title: "Edge-Optimized Resume Processing and Ranking System",
       date: "April 2021",
       organization: "Skil.AI",
-      logo: "/lovable-uploads/f6127ed4-1f72-4f64-abe0-76d51bbc12c4.png",
+      logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Engineered a lightweight document processing system capable of running on resource-constrained devices (<500MB RAM). The system implements layout-agnostic text extraction, structured data parsing, and semantic similarity matching for job description alignment. Features include real-time ranking algorithms, batch processing capabilities, and integration APIs for applicant tracking systems.",
       status: "completed"
     },
@@ -135,7 +135,7 @@ const Timeline = () => {
       title: "Layout-Agnostic Information Extraction Framework for Structured Documents",
       date: "October 2020",
       organization: "Skil.AI",
-      logo: "/lovable-uploads/f6127ed4-1f72-4f64-abe0-76d51bbc12c4.png",
+      logo: "/lovable-uploads/a7d75658-b7fd-462a-959b-dea8334b600c.png",
       description: "Designed an NLP-based document processing solution addressing limitations of traditional object detection approaches for invoice processing. The framework achieved 98% accuracy improvement across diverse layout clusters while reducing computational requirements by 90%. Implemented token-level classification, spatial relationship modeling, and adaptive template matching inspired by academic research in document understanding.",
       status: "completed"
     },
