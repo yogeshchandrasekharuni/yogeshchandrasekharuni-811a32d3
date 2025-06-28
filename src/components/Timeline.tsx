@@ -39,7 +39,7 @@ const Timeline = () => {
       title: "Multi-Modal AI Agent for E-Commerce Product Discovery and Recommendation",
       date: "February 2025",
       organization: "Cabinetworks Group",
-      logo: "/lovable-uploads/1c2b8302-04b4-4f1b-8a67-68cd716169f1.png",
+      logo: "/lovable-uploads/cabworks-group-logo.jpeg",
       description: "Developed an intelligent product discovery system combining computer vision, natural language processing, and recommendation algorithms. The system processes user queries in natural language, performs visual product search through image recognition, and generates personalized recommendations using collaborative and content-based filtering. Integrated with e-commerce platforms for seamless purchase flow and dynamic product visualization.",
       status: "completed"
     },
