@@ -20,9 +20,9 @@ const Hero = () => {
               <p><strong>Email:</strong> yogeshchandrasekharuni@gmail.com</p>
               <p><strong>Phone:</strong> +91 7032521800</p>
               <div className="flex space-x-4 mt-4">
-                <a href="#" className="text-blue-600 hover:underline">GitHub</a>
-                <a href="#" className="text-blue-600 hover:underline">LinkedIn</a>
-                <a href="#" className="text-blue-600 hover:underline">Medium</a>
+                <a href="https://github.com/yogeshchandrasekharuni" className="text-blue-600 hover:underline" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/yogeshchandrasekharuni/" className="text-blue-600 hover:underline" target="_blank">LinkedIn</a>
+                <a href="https://yogeshchandrasekharuni.medium.com" className="text-blue-600 hover:underline" target="_blank">Medium</a>
               </div>
             </div>
           </div>
