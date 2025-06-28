@@ -23,7 +23,7 @@ const Timeline = () => {
       title: "Agent-Based HR Process Automation Platform",
       date: "June 2025",
       organization: "Wexa.ai",
-      logo: "/lovable-uploads/cf33f836-5af1-402c-80e5-f34ea8bf18ce.png",
+      logo: "/lovable-uploads/wexa-ai-logo.jpg",
       description: "Engineered a comprehensive HR automation solution leveraging a multi-agent architecture to streamline recruitment, onboarding, and employee lifecycle management. Implemented natural language processing for resume parsing, candidate matching algorithms, and automated interview scheduling. The platform integrates with existing HRIS systems and provides configurable workflow automation with audit trails and compliance monitoring.",
       status: "completed"
     },
