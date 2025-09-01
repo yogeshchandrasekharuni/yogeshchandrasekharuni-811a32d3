@@ -33,31 +33,33 @@ const Hire = () => {
         <div className="mb-12 relative">
           <div className="bg-white p-8 rounded-lg border border-gray-200 shadow-sm">
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">Full-time Opportunities</h3>
-            <p className="text-gray-700 mb-4">
-              Join me full-time to build cutting-edge AI solutions and drive innovation at scale. 
-              I bring deep expertise in machine learning, data science, and AI product development.
-            </p>
-            <p className="text-gray-600 text-sm">
-              Let's discuss how I can contribute to your team's success and help achieve your AI initiatives.
-            </p>
-          </div>
-          
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-lg flex items-center justify-center">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calendar className="w-8 h-8 text-amber-600" />
-              </div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-2">Currently Unavailable</h4>
-              <p className="text-gray-600 text-sm mb-4 max-w-sm">
-                Not actively seeking full-time roles, but I'd love to hear about exciting opportunities for future consideration.
+            <div className="relative">
+              <p className="text-gray-700 mb-4">
+                Join me full-time to build cutting-edge AI solutions and drive innovation at scale. 
+                I bring deep expertise in machine learning, data science, and AI product development.
               </p>
-              <a 
-                href="mailto:yogeshchandrasekharuni@gmail.com?subject=Full-time Opportunity Inquiry"
-                className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 transition-colors text-sm"
-              >
-                Send me an offer anyway
-              </a>
+              <p className="text-gray-600 text-sm">
+                Let's discuss how I can contribute to your team's success and help achieve your AI initiatives.
+              </p>
+              
+              {/* Overlay - only covers content, not heading */}
+              <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded flex items-center justify-center">
+                <div className="text-center p-6">
+                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Calendar className="w-8 h-8 text-amber-600" />
+                  </div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Currently Unavailable</h4>
+                  <p className="text-gray-600 text-sm mb-4 max-w-sm">
+                    Not actively seeking full-time roles, but I'd love to hear about exciting opportunities for future consideration.
+                  </p>
+                  <a 
+                    href="mailto:yogeshchandrasekharuni@gmail.com?subject=Full-time Opportunity Inquiry"
+                    className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 transition-colors text-sm"
+                  >
+                    Send me an offer anyway
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
