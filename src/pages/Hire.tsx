@@ -43,18 +43,18 @@ const Hire = () => {
               </p>
               
               {/* Overlay - only covers content, not heading */}
-              <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Calendar className="w-8 h-8 text-amber-600" />
+              <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded flex items-center justify-center overflow-hidden">
+                <div className="text-center p-4 max-w-xs">
+                  <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Calendar className="w-6 h-6 text-amber-600" />
                   </div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Currently Unavailable</h4>
-                  <p className="text-gray-600 text-sm mb-4 max-w-sm">
-                    Not actively seeking full-time roles, but I'd love to hear about exciting opportunities for future consideration.
+                  <h4 className="text-base font-semibold text-gray-900 mb-2">Currently Unavailable</h4>
+                  <p className="text-gray-600 text-xs mb-3">
+                    Not actively seeking full-time roles, but I'd love to hear about exciting opportunities.
                   </p>
                   <a 
                     href="mailto:yogeshchandrasekharuni@gmail.com?subject=Full-time Opportunity Inquiry"
-                    className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 transition-colors text-sm"
+                    className="bg-amber-600 text-white px-3 py-2 rounded hover:bg-amber-700 transition-colors text-xs"
                   >
                     Send me an offer anyway
                   </a>
