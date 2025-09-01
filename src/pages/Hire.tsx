@@ -44,17 +44,17 @@ const Hire = () => {
               
               {/* Overlay - only covers content, not heading */}
               <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded flex items-center justify-center overflow-hidden">
-                <div className="text-center p-4 max-w-xs">
-                  <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <Calendar className="w-6 h-6 text-amber-600" />
+                <div className="text-center px-4 py-2 max-w-sm">
+                  <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                    <Calendar className="w-5 h-5 text-amber-600" />
                   </div>
-                  <h4 className="text-base font-semibold text-gray-900 mb-2">Currently Unavailable</h4>
-                  <p className="text-gray-600 text-xs mb-3">
+                  <h4 className="text-sm font-semibold text-gray-900 mb-1">Currently Unavailable</h4>
+                  <p className="text-gray-600 text-xs mb-3 leading-tight">
                     Not actively seeking full-time roles, but I'd love to hear about exciting opportunities.
                   </p>
                   <a 
                     href="mailto:yogeshchandrasekharuni@gmail.com?subject=Full-time Opportunity Inquiry"
-                    className="bg-amber-600 text-white px-3 py-2 rounded hover:bg-amber-700 transition-colors text-xs"
+                    className="bg-amber-600 text-white px-3 py-1.5 rounded hover:bg-amber-700 transition-colors text-xs inline-block"
                   >
                     Send me an offer anyway
                   </a>
